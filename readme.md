@@ -204,7 +204,7 @@ Same request body structure as `POST`. All fields are replaced; `insertedAt` is 
 ### Project Structure
 
 ```
-notes-app-back-end/
+bookshelfapi-backend-beginner-dicoding/
 ├── src/
 │   ├── server.js     ← Hapi server initialization, CORS config, startup
 │   ├── routes.js     ← Route definitions — maps HTTP method + path → handler
@@ -261,8 +261,8 @@ const finished = pageCount === readPage; // computed on every write
 
 ```bash
 # Clone the repository
-git clone https://github.com/salsabilarh/bookshelf-api-dicoding.git
-cd bookshelf-api-dicoding
+git clone https://github.com/salsabilarh/bookshelfapi-backend-beginner-dicoding.git
+cd bookshelfapi-backend-beginner-dicoding
 
 # Install dependencies
 npm install
